@@ -29,7 +29,8 @@
               disableKick: true,
             remoteVideoMenu: { disableKick: true },
             disableRemoteMute: true,
-            subject: "1-2"
+            subject: "1-2",
+            disableDeepLinking: true
 
             },
             interfaceConfigOverwrite: {
@@ -42,8 +43,7 @@
                 SHOW_CHROME_EXTENSION_BANNER: false,
                 SHOW_BRAND_WATERMARK: false,
                 HIDE_INVITE_MORE_HEADER: false,
-                MOBILE_APP_PROMO: true,
-                disableDeepLinking: true
+                MOBILE_APP_PROMO: true
             }
         }
         var api = new JitsiMeetExternalAPI(domain, options);
